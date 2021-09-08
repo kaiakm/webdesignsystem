@@ -1,0 +1,177 @@
+/* Page Setup */
+
+body {
+    box-sizing: border-box;
+    background-color: #FEFBF3;
+    margin: 0 auto;
+    font-family: 'Fira Sans', san-serif;
+    font-size: 16px;
+}
+
+main {
+    top: 60px;
+    bottom: 300px;
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Navigation */
+
+header {
+    background-color: #9d9d9d;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+.navigation ul {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.navigation li {
+    display: inline-block;
+}
+
+.navigation a {
+    color: #FEFBF3;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.navigation a:hover {
+    color: #79B4B7;
+}
+
+/* Heading Styles */
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    color: #79B4B7;
+    font-weight: bold;
+    font-size: 56px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 35px;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+/* Table Setup */
+
+table {
+    border: 1px solid #000000;
+    width: 100%;
+    background: #ffffff;
+    padding: 20px;
+    border-collapse:separate; 
+    border-spacing: 20px;
+    margin-bottom: 70px;
+}
+
+td {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Color Setup */
+
+.peach,
+.blue,
+.purple,
+.green {
+    color: #ffffff;
+    margin: 30px;
+}
+
+.peach {
+    background-color: #e27d60;
+}
+
+.blue {
+    background-color: #85cdca;
+}
+
+.purple {
+    background-color: #c38d93;
+}
+
+.green {
+    background-color: #41b3a3;
+}
+
+/* Font Setup */
+
+.cormorant-label {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cormorant-example {
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.fira-label {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.fira-example {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+}
+
+.cormorant-example,
+.fira-example {
+    text-align: justify;
+}
+
+/* Text Styles Setup */
+
+.h1-heading {
+    color: #41b3a3;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.h2-heading {
+    color: #e27d60;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.p-heading {
+    font-weight: bold;
+}
+
+.text-designs-table ul {
+    text-align: left;
+    list-style-type: none;
+}
+
+/* Footer */
+
+footer {
+    margin-top: 100px;
+    bottom: 0;
+    width: 100%;
+    background-color: #9d9d9d;
+    height: 60px;
+}
+
+footer p {
+    text-align: center;
+    color: #fefbf3;
+    padding: 10px;
+}
